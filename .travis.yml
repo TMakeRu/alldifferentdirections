@@ -1,11 +1,12 @@
 language: php
 
 php:
+  - 7.0
   - 7.1
+  - 7.2
 
 install:
-  - travis_retry composer install --no-interaction --no-suggest
-  - composer show --installed
+  - composer install
 
 branches:
   only: master
@@ -14,4 +15,5 @@ before_script:
   - travis_retry composer self-update
 
 script:
+  - php $TRAVIS_BUILD_DIR/vendor/bin/phpcs --standard=psr2 $TRAVIS_BUILD_DIR/test/ -n
   - $TRAVIS_BUILD_DIR/vendor/bin/phpunit $TRAVIS_BUILD_DIR/tests/
