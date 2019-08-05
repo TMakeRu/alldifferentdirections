@@ -4,6 +4,7 @@ All Different Directions
 ## Overview
 
 [![Build Status](https://travis-ci.org/TMakeRu/alldifferentdirections.svg?branch=master)](https://travis-ci.org/TMakeRu/alldifferentdirections)
+
 Test Solution for "All Different Directions".
 
 ## Description
