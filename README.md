@@ -3,8 +3,7 @@ All Different Directions
 
 ## Overview
 
-![Travis CI](https://travis-ci.org/TMakeRu/alldifferentdirections.svg?branch=master)
-
+[![Build Status](https://travis-ci.org/TMakeRu/alldifferentdirections.svg?branch=master)](https://travis-ci.org/TMakeRu/alldifferentdirections)
 Test Solution for "All Different Directions".
 
 ## Description
