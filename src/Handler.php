@@ -78,7 +78,7 @@ class Handler
      */
     private function getStdin(): string
     {
-        $handle = fopen ("php://stdin","r");
+        $handle = fopen("php://stdin", "r");
         $stdin = fgets($handle);
         fclose($handle);
 

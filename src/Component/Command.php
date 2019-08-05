@@ -157,6 +157,4 @@ class Command
 
         return true;
     }
-
-
 }

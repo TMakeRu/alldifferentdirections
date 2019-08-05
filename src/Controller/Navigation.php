@@ -111,7 +111,7 @@ class Navigation
     public function getDistanceBetweenWorstAndAveraged(): float
     {
         $distanceBetweenWorstAndAveraged = 0;
-        foreach($this->points as $point) {
+        foreach ($this->points as $point) {
             $distance = sqrt((($point->getX() - $this->averageX) ** 2) + (($point->getY() - $this->averageY) ** 2));
             if ($distance > $distanceBetweenWorstAndAveraged) {
                 $distanceBetweenWorstAndAveraged = $distance;
