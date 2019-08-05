@@ -6,7 +6,8 @@ php:
   - 7.2
 
 install:
-  - composer install
+  - travis_retry composer install --no-interaction --no-suggest
+  - composer show --installed
 
 branches:
   only: master
