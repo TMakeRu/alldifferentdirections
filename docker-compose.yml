@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: ./php-fpm71
+    volumes:
+      - ../:/var/www/html
+    container_name: alldifferentdirections
