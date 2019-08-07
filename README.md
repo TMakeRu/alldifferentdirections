@@ -24,22 +24,22 @@ $ git clone https://github.com/TMakeRu/alldifferentdirections.git
 Up:
 
 ```bash
+$ composer install
 $ docker-compose up -d
 $ docker exec -it alldifferentdirections bash
-$ cd public && composer install
 ```
 Run:
 
 ```bash
 $ docker exec -it alldifferentdirections bash
-$ ./public/index.php
+$ ./index.php
 ```
 
 Test:
 ```bash
 $ docker-compose up -d
 $ docker exec -it alldifferentdirections bash
-$ ./public/vendor/bin/phpunit ./public/tests
+$ ./vendor/bin/phpunit ./tests
 ```
 
 Stop:
