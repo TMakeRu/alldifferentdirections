@@ -48,7 +48,3 @@ Stop:
 $ docker-compose stop
 ```
 
-## Author
-
-[Stepan](http://tmake.ru/)
-
