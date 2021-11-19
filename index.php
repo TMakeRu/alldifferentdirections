@@ -4,8 +4,6 @@
  * All Different Directions
  *
  * @link       https://open.kattis.com/problems/alldifferentdirections
- * @author     Barannikov Stepan
- * @link       http://tmake.ru/
  */
 
 require_once __DIR__ . '/vendor/autoload.php';
